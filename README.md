@@ -11,14 +11,37 @@
 ## Overview
 Implementation of 5 key page replacement algorithms used in operating systems for memory management.
 
-### Algorithms Included:
-1. **FIFO (First-In, First-Out):** Replaces the oldest page in memory.
-2. **LRU (Least Recently Used):** Replaces the page that has not been used for the longest period.
-3. **Optimal:** Replaces the page that will not be used for the longest time in the future.
-4. **MRU (Most Recently Used):** Replaces the page most recently accessed.
-5. **Second Chance (Clock):** An improvement over FIFO that uses a reference bit to give active pages a "second chance".
+## Algorithms & Execution
 
-## Usage
+### 1. FIFO (First-In, First-Out)
+Replaces the oldest page in memory.
+![FIFO](screenshots/1.jpg)
+
+### 2. LRU (Least Recently Used)
+Replaces the page that has not been used for the longest period.
+![LRU](screenshots/2.jpg)
+
+### 3. Optimal
+Replaces the page that will not be used for the longest time in the future.
+![Optimal](screenshots/3.jpg)
+
+### 4. MRU (Most Recently Used)
+Replaces the page most recently accessed.
+![MRU](screenshots/4.jpg)
+
+### 5. Second Chance (Clock)
+An improvement over FIFO that uses a reference bit to give active pages a "second chance".
+![Second Chance](screenshots/5.jpg)
+
+---
+
+## 📊 Performance Comparison
+Summary of total page faults for the provided reference string and frames.
+![Comparison](screenshots/6.jpg)
+
+---
+
+## 🚀 Usage
 Run the script using Python 3:
 
 ```bash
